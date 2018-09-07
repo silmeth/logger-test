@@ -26,7 +26,6 @@ repositories {
 }
 
 ext.verLog4j = "2.11.1"
-ext.verLog4jGelf = "1.3.1"
 
 ext.verJUnit = "5.2.0" // or "5.3.0-M1"
 ext.verJUnit4 = "4.12"
@@ -36,7 +35,6 @@ dependencies {
     compile "org.apache.logging.log4j:log4j-core:$verLog4j"
     compile "org.apache.logging.log4j:log4j-api:$verLog4j"
     compile "org.apache.logging.log4j:log4j-jul:$verLog4j"
-    compile "org.graylog2.log4j2:log4j2-gelf:$verLog4jGelf"
     compile "org.apache.logging.log4j:log4j-slf4j-impl:$verLog4j"
 
     testCompile "org.junit.jupiter:junit-jupiter-api:$verJUnit"
